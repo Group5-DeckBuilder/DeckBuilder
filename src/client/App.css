@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     margin: 10px;
+    margin-top: 160px;
 }
 
 .search-bar-cards input {
@@ -27,6 +28,8 @@
     max-height: 80vh;
     border: 2px solid #dfe1e5;
     justify-content: center;
+    position: relative;
+    margin-top: 35px;
 }
 
 .card-cards {
@@ -37,6 +40,7 @@
     max-width: 100%;
     height: auto;
     display: block;
+    width: 175px;
 }
 .add-button-cards{
   background-color: green;
@@ -58,6 +62,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 /* Home Page Styling */
@@ -79,12 +84,11 @@ body, html {
 /* USER DECK STYLING (DECK BUILDER)  */
 
 .user-deck-container {
-  display: flex;
-  overflow-y: auto;
   max-height: 80vh;
   border: 2px solid #dfe1e5;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 .deck-heading {
@@ -103,7 +107,7 @@ body, html {
 }
 
 .card-image {
-  width: 100px;
+  width: 80px;
   height: auto;
 }
 
@@ -162,6 +166,18 @@ body, html {
 
 .select-container{
   display: flex;
+}
+
+
+@media (min-width: 1660px) {
+
+  .search-bar-cards {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 75px;
+}
+
 }
 
 

@@ -1,7 +1,7 @@
 
 const ExploreSearchBar = ({setSearch}) => {
     return (
-            <div className="search-bar-cards">
+            <div className="explore-search-bar">
                 <input
                     type="text"
                     placeholder="Search Decks..."
